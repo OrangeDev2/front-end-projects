@@ -1,0 +1,85 @@
+		body {
+			background-color: #232c31;
+			color: white;
+			font-family: "Helvetica", Sans-Serif;
+		}
+
+		#title {
+			text-align: center;
+		}
+		#boxed {
+			width: 254px;
+			box-shadow: 10px 10px 5px black;
+			background-color: black;
+			margin-left: 40%;
+			margin-right: auto;
+		}
+
+		#display {
+			background-color: black;
+			text-align: right;
+			padding-top: 10%;
+			font-size: 25px;
+		}
+
+		/*.buttons {
+
+		}*/
+
+		#AC, #PlusNeg, #Percentage {
+			color: black;
+			border-radius: 50%;
+			background-color: #A9A9A9;
+			padding: 20px;
+			width: 10px;
+			height: 10px;
+			
+			margin: 5px;
+
+			display: inline-block;
+		}
+
+		#divide, #multiply, #subtract, #addition, #equal {
+			color: white;
+			border-radius: 50%;
+			background-color: #FFA500;
+			padding: 20px;
+			width: 10px;
+			height: 10px;
+			margin: 5px;
+
+			display: inline-block;
+		}
+
+		#seven, #eight, #nine, #four, #five, #six, #one, #two, #three, #zero, #decimal {
+			color: white;
+			border-radius: 50%;
+			background-color: #696969;
+			padding: 20px;
+			width: 10px;
+			height: 10px;
+			margin: 5px;
+
+			display: inline-block;
+		}
+
+		#zero /* just a bigger button */ {
+			color: white;
+			border-radius: 25px;
+			background-color: #696969;
+			padding: 20px;
+			width: 74px;
+			height: 10px;
+			margin: 5px;
+			/*display: inline-block;*/
+		}
+		#AC:hover, #PlusNeg:hover, #Percentage:hover, #divide:hover, #multiply:hover, #subtract:hover, #addition:hover, #equal:hover, #seven:hover, #eight:hover, #nine:hover, #four:hover, #five:hover, #six:hover, #one:hover, #two:hover, #three:hover, #zero:hover, #decimal:hover {
+			color: #fff !important;
+			background: black;
+			border: 1px solid white;
+			padding: 19px;
+		}
+
+		#AC:active, #PlusNeg:active, #Percentage:active, #divide:active, #multiply:active, #subtract:active, #addition:active, #equal:active, #seven:active, #eight:active, #nine:active, #four:active, #five:active, #six:active, #one:active, #two:active, #three:active, #zero:active, #decimal:active {
+			background: #00a2ed;
+		}
