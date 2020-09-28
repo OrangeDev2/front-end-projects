@@ -83,3 +83,9 @@
 		#AC:active, #PlusNeg:active, #Percentage:active, #divide:active, #multiply:active, #subtract:active, #addition:active, #equal:active, #seven:active, #eight:active, #nine:active, #four:active, #five:active, #six:active, #one:active, #two:active, #three:active, #zero:active, #decimal:active {
 			background: #00a2ed;
 		}
+
+.footer {
+    background-color: #cc0000;
+    margin: 0;
+    padding: 0.5rem;
+  }
